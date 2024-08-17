@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "org.sam.commandmod.client.usercmds",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChatLogger",
+    "ClearCmd",
+    "GmdCmd",
+    "KillCmd",
+    "SpawnCmd",
+    "TpCmd",
+    "PlayerCmd"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ]
+}

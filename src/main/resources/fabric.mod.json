@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "commandmod",
+  "version": "${version}",
+  "name": "CommandMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Adnan/CommandMod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/commandmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.sam.commandmod.client.CommandModClient"
+    ],
+    "main": [
+      "org.sam.commandmod.CommandMod"
+    ]
+  },
+  "mixins": [
+    "commandmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
